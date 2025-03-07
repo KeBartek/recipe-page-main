@@ -45,16 +45,16 @@ body{
 #menu p{
     font-size: 1rem;
     color: hsl(30, 10%, 34%);
-    margin: 1rem;
+    margin: 0.6rem;
     font-weight: 400;
 }
 
 #preparation
 {
     background-color: hsl(330, 100%, 98%);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 #preparation h3
@@ -77,20 +77,20 @@ h1, h2
 {
     font-weight: 400;
     font-family: 'YS';
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 0.8rem;
 }
 
 h3
 {
     font-weight: 700;
     font-family: 'OUTFIT';
-    padding: 1rem;
+    
 }
 
 h2
 {
     color: hsl(14, 45%, 36%);
+    font-size: 1.8rem;
 }
 
 h1
