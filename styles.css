@@ -45,7 +45,7 @@ body{
 #menu p{
     font-size: 1rem;
     color: hsl(30, 10%, 34%);
-    margin: 0.6rem;
+    margin: 0.7rem;
     font-weight: 400;
 }
 
@@ -77,7 +77,7 @@ h1, h2
 {
     font-weight: 400;
     font-family: 'YS';
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 h3
