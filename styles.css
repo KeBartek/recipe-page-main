@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'OUTFIT';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'YS';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+body{
+    font-family: 'OUTFIT';
+    background-color: hsl(30, 54%, 90%);
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#menu
+{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    display: grid;
+    justify-content: center;
+    width: 40rem;
+}
+
+#menu p{
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    margin: 1rem;
+    font-weight: 400;
+}
+
+#preparation
+{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#preparation h3
+{
+   color: hsl(332, 51%, 32%);
+}
+#preparation ul{
+    color:hsl(332, 51%, 32%);
+}
+img
+{
+    border-radius: 1rem;
+    width: 40rem;
+    height: auto;
+    margin: 1rem;
+}
+
+h1, h2, h3, h4
+{
+    font-weight: 400;
+    font-family: 'YS';
+    padding: 1rem;
+}
+
+h2
+{
+    color: hsl(14, 45%, 36%);
+}
+.word{
+    font-weight: 700;
+    font-family: 'OUTFIT';
+}
+
+
+ol, ul{
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    margin: 1rem;
+    color: hsl(30, 18%, 87%);
+}
+
+table{
+    margin: 2rem;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.tabe{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.5rem;
+}
+.cell{
+    border-bottom: 0px;
+}
+
+@media screen and (max-width: 1439px){
+    
+    #menu{
+        flex-direction: column;
+        width: 20rem;
+        height: 100;
+        margin: 0;
+        padding-top: 0;
+        border-radius: 0;
+        display: grid;
+
+
+    }
+    img{
+        width: 20rem;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+}
